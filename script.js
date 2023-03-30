@@ -1,6 +1,6 @@
 $(document).ready(function() {
   const apiRoot = 'https://tasks-prod-kodilla-tasks-f3ze7z.mo5.mogenius.io/v1/tasks';
-  const trelloApiRoot = 'https://api.trello.com/1/boards/638f014489ddd5002398fa8a?key=f4a19e10987e365cddf0ae11c8df0340&token=1fb50a725b9cd12a162302753b0aaf57f79d4ac5e9a8c5ab8521c60b893a92c6';
+  const trelloApiRoot = 'https://api.trello.com';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
