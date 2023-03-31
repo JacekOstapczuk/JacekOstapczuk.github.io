@@ -1,8 +1,9 @@
 $(document).ready(function() {
   const apiRoot = 'https://tasks-prod-kodilla-tasks-f3ze7z.mo5.mogenius.io/v1/tasks';
-  const trelloApiRoot = 'https://api.trello.com/1';
+  const trelloApiRoot = 'https://tasks-prod-kodilla-tasks-f3ze7z.mo5.mogenius.io/v1/trello';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
+
 
   var availableBoards = {};
   var availableTasks = {};
